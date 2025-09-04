@@ -1,0 +1,80 @@
+/* workout generator page styling */
+.timer-container {
+    font-size: 3em;
+    font-family: 'Lora', serif;
+}
+
+
+.timer-container button {
+    border:none;
+    margin: 0;
+    background-color: transparent;
+    /* size: 30px; */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.timer-container button:hover {
+    transform: scale(1.1);
+}
+
+.timer-container img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.timer-container p {
+    font-size: 0.5em;
+}
+
+#timer-value {
+    font-size: 1em;
+    
+}
+
+.banner-image-workout img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 10px;
+    padding: 10px;
+}
+
+.grid-container-work {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.timer-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:0 5px 11px rgba(0, 0, 0, 0.203);
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(28, 144, 103);
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(44, 221, 159);
+}
+
+form {
+    padding: 10px;
+    margin: 5px;
+    gap: 10px;
+}

@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin:0;
+    background-image: url('./backgrounds4/moon-crop.gif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.timer-container {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Lora', serif;
+}
+
+#timer-value {
+    margin-bottom: 20px;
+}
+
+button {
+    border:none;
+    background-color: transparent;
+    size: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+.timer-container img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.timer-container p {
+    font-size: 0.5em;
+}
+
+#timer-value {
+    color: white;
+    font-size: 1.5em;
+}

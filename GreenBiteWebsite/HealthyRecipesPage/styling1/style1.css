@@ -1,0 +1,97 @@
+.header-content img {
+    height: 100px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container aside {
+    background-color: rgba(28, 129, 94, 0.756);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-item-left h1,
+.grid-item-left p,
+.grid-item-left img {
+    padding: 10px;
+}
+
+.grid-item-left img {
+    width: 100%;
+    height: auto;
+}
+
+form button {
+  background-color: rgb(28, 144, 103);  
+  color: white;                 
+  border: none;                  
+  padding: 6px 14px;             
+  font-size: 16px;
+  border-radius: 5px;            
+  cursor: pointer;               
+  transition: background-color 0.3s ease; 
+}
+
+
+form button:hover {
+  background-color: rgb(44, 221, 159);      
+}
+
+.flex-item-recipe img {
+  border-radius: 50%;
+}
+
+.flex-item-recipe {
+    padding: 10px;
+    background-color: rgb(232, 255, 247);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:0 5px 11px rgba(0, 0, 0, 0.203);
+    font-size: 1.5rem;
+    color: rgb(14, 62, 45);
+    transition: transform 0.3s ease;
+}
+
+.flex-item-recipe:hover {
+    transform: scale(1.05);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;           
+}
+
+.flex-item-recipe {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item-recipe img,
+.flex-item-recipe div {
+  margin: 10px 
+}
+
+.flex-item-recipe div {
+  font-size: 1.2rem;
+}
+
+form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 3px rgb(5, 36, 25);
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgb(232, 255, 247);
+}
+
+body {
+  background-color: rgb(232, 255, 247);
+}
