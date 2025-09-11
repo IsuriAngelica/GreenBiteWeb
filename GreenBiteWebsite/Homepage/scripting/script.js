@@ -27,5 +27,5 @@ quoteTextElement.textContent = healthQuotes[currentQuoteIndex];
 currentQuoteIndex = 1; // Set to next quote
 
 // Set interval (30 seconds between changes)
-const intervalTime = 5 * 60 * 1000; // 30 seconds
+const intervalTime = 30 * 1000; // 30 seconds
 setInterval(changeAndAnimateQuote, intervalTime);
